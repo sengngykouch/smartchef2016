@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     private ImageView targetImage;
     private TextView textTargetUri;
     private Button cameraButton;
+    static final int REQUEST_IMAGE_CAPTURE = 1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
                 intent.putExtra(MediaStore.EXTRA_OUTPUT,
                         MediaStore.Images.Media.EXTERNAL_CONTENT_URI.getPath());
-                startActivityForResult(intent, 1);
+                startActivityForResult(intent, REQUEST_IMAGE_CAPTURE);
             }
         });
 
