@@ -3,165 +3,165 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\Adrian Tong\Documents\smartchef2016\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="26674000177e45447a0326a6ad84612761199a13">
-        <dex dex="C:\Users\Adrian Tong\Documents\smartchef2016\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.0_ed5316a1626ddad9d0882dc14033bcba2072d16d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Adrian Tong\Documents\smartchef2016\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
-        <dex dex="C:\Users\Adrian Tong\Documents\smartchef2016\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.0_658869cc24425c98f604c13068ca9f15c6e77db1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Adrian Tong\Documents\smartchef2016\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="C:\Users\Adrian Tong\Documents\smartchef2016\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_368798093ec666f5b090303990fe37e3bcaf9bc7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Adrian Tong\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
-        <dex dex="C:\Users\Adrian Tong\Documents\smartchef2016\app\build\intermediates\pre-dexed\debug\gson-2.8.0_afc466e7f61f689029ee05c84294d55308ad6df8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Adrian Tong\Documents\smartchef2016\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="C:\Users\Adrian Tong\Documents\smartchef2016\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_f6dd2b8681b4987e0faec17af9c8080ca3d99596.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Adrian Tong\Documents\smartchef2016\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
-        <dex dex="C:\Users\Adrian Tong\Documents\smartchef2016\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.0_ad4ae4d33ea35b4b53c095296a7884dc98ba257c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Adrian Tong\Documents\smartchef2016\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Adrian Tong\Documents\smartchef2016\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.0_921150ac801909ea9199760fed667aa6ce409c56.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Adrian Tong\Documents\smartchef2016\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="C:\Users\Adrian Tong\Documents\smartchef2016\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_c1cbff2ef4629d5acd4e920b9a20a10165d6307e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Adrian Tong\Documents\smartchef2016\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
-        <dex dex="C:\Users\Adrian Tong\Documents\smartchef2016\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_6990ccee9c19c688706e05084a4389e51166458e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Adrian Tong\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="C:\Users\Adrian Tong\Documents\smartchef2016\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.0_a90df7f7416db1fe097ff890958b9dade4b76ac6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Adrian Tong\Documents\smartchef2016\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="C:\Users\Adrian Tong\Documents\smartchef2016\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.0_25754a99b9e72a64c103bfcfb22cb2fe891af5f4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Adrian Tong\Documents\smartchef2016\app\build\intermediates\exploded-aar\com.microsoft.projectoxford\vision\1.0.354\jars\libs\commons-io-2.4.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
-        <dex dex="C:\Users\Adrian Tong\Documents\smartchef2016\app\build\intermediates\pre-dexed\debug\commons-io-2.4_5c6a7166247461486d941fecf2bb43ba3627aeea.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Adrian Tong\Documents\smartchef2016\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
-        <dex dex="C:\Users\Adrian Tong\Documents\smartchef2016\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.0_4cfdd8ada8e3a172e9ff4e3acb436e9d59c732bd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Adrian Tong\Documents\smartchef2016\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
-        <dex dex="C:\Users\Adrian Tong\Documents\smartchef2016\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.0.0_af8a0af43108f91b9d23537ba0fb28c61dded257.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Adrian Tong\Documents\smartchef2016\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
+        jar="C:\Users\Sengngy Kouch\Documents\github\smartchef2016\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
-        <dex dex="C:\Users\Adrian Tong\Documents\smartchef2016\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.0_050580c0f946b177e124efa4381514d26dc742f2.jar" />
+        <dex dex="C:\Users\Sengngy Kouch\Documents\github\smartchef2016\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.0_fb2bf0e9b47328656788472eb1c2046ab35f4817.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Adrian Tong\Documents\smartchef2016\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jar="C:\Users\Sengngy Kouch\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
-        <dex dex="C:\Users\Adrian Tong\Documents\smartchef2016\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.0.0_4866361933729f3b5ce408d7bde1f27b31fa97e0.jar" />
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="C:\Users\Sengngy Kouch\Documents\github\smartchef2016\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.0_e7c339045fc96d40474541f090ba73ad479e32cd.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Adrian Tong\Documents\smartchef2016\app\build\intermediates\exploded-aar\com.microsoft.projectoxford\vision\1.0.354\jars\classes.jar"
+        jar="C:\Users\Sengngy Kouch\Documents\github\smartchef2016\app\build\intermediates\exploded-aar\com.microsoft.projectoxford\vision\1.0.354\jars\libs\commons-io-2.4.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="9b1a002a8b4bdd3d66cbadfdc4b16dfabd8e1042">
-        <dex dex="C:\Users\Adrian Tong\Documents\smartchef2016\app\build\intermediates\pre-dexed\debug\com.microsoft.projectoxford-vision-1.0.354_4ea5de8fd5c111e972180446d4e54c2c4f02c877.jar" />
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
+        <dex dex="C:\Users\Sengngy Kouch\Documents\github\smartchef2016\app\build\intermediates\pre-dexed\debug\commons-io-2.4_40fc50de8aa2adf01c210c0808935e032fb9c607.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Adrian Tong\Documents\smartchef2016\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jar="C:\Users\Sengngy Kouch\Documents\github\smartchef2016\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="C:\Users\Sengngy Kouch\Documents\github\smartchef2016\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.0_f71b40f28a594b1c6540741c530375e5fd170b34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sengngy Kouch\Documents\github\smartchef2016\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Sengngy Kouch\Documents\github\smartchef2016\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.0_a2bcab90c32ebdbd0003c47e1f452c58c9b5d12b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sengngy Kouch\Documents\github\smartchef2016\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="C:\Users\Sengngy Kouch\Documents\github\smartchef2016\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.0_04eee2d910a009e2c8358ca798b5728133d27715.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sengngy Kouch\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="C:\Users\Sengngy Kouch\Documents\github\smartchef2016\app\build\intermediates\pre-dexed\debug\gson-2.8.0_36e816c41c93191acc40ce4d79e62a1b3aaac4a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sengngy Kouch\Documents\github\smartchef2016\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
-        <dex dex="C:\Users\Adrian Tong\Documents\smartchef2016\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_cfb1130aec83d56864bfd2a6a3f4902fd370d3ba.jar" />
+        <dex dex="C:\Users\Sengngy Kouch\Documents\github\smartchef2016\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_6d22c204e6610b267c372396418a26fe554b9c09.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sengngy Kouch\Documents\github\smartchef2016\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="C:\Users\Sengngy Kouch\Documents\github\smartchef2016\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.0.0_017365dd98d8570594927751fed74033d96df3b1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sengngy Kouch\Documents\github\smartchef2016\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="C:\Users\Sengngy Kouch\Documents\github\smartchef2016\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.0_0ccc900091c65d64070ebb5b9a420bb876ca6da1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sengngy Kouch\Documents\github\smartchef2016\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="C:\Users\Sengngy Kouch\Documents\github\smartchef2016\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_6e26aa226914a655e53df7282f3f1431b81c0e5a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sengngy Kouch\Documents\github\smartchef2016\app\build\intermediates\exploded-aar\com.microsoft.projectoxford\vision\1.0.354\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9b1a002a8b4bdd3d66cbadfdc4b16dfabd8e1042">
+        <dex dex="C:\Users\Sengngy Kouch\Documents\github\smartchef2016\app\build\intermediates\pre-dexed\debug\com.microsoft.projectoxford-vision-1.0.354_1b27fa68eb92a27f46fabf1f3f1773b5afc1610e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sengngy Kouch\Documents\github\smartchef2016\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="C:\Users\Sengngy Kouch\Documents\github\smartchef2016\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.0_136ade5ea1b659ca9723ebf2131437842976d5c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sengngy Kouch\Documents\github\smartchef2016\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\Sengngy Kouch\Documents\github\smartchef2016\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_ae5d6b70c911e76cdc8bf4ecb176627aba195cc0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sengngy Kouch\Documents\github\smartchef2016\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="C:\Users\Sengngy Kouch\Documents\github\smartchef2016\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_747a219eb759a352c5fae91a78ad0392ec0b32d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sengngy Kouch\Documents\github\smartchef2016\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="C:\Users\Sengngy Kouch\Documents\github\smartchef2016\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.0_efc907caff542f55934fc025cc92899220bcfd8b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sengngy Kouch\Documents\github\smartchef2016\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="C:\Users\Sengngy Kouch\Documents\github\smartchef2016\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.0.0_8395ea1a4a6b4063d31f371896ed50ed82d14ac8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Sengngy Kouch\Documents\github\smartchef2016\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="C:\Users\Sengngy Kouch\Documents\github\smartchef2016\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_a2780c093124eb3cf12100057bc5aa2dd8fe8194.jar" />
     </item>
 
 </items>
