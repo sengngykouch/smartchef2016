@@ -13,38 +13,34 @@
 
     <Button
         android:text="Upload Photos"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_centerInParent="true"
+        android:layout_marginTop="20dip"
         android:id="@+id/button"/>
 
     <Button
         android:text="Take Photos"
         android:id="@+id/cameraButton"
         android:layout_below="@+id/button"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerInParent="true"
          />
-    <TextView
-        android:id="@+id/targeturi"
-        android:layout_below="@+id/cameraButton"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        />
+
     <ImageView
         android:id="@+id/targetimage"
-        android:layout_below="@+id/targeturi"
+        android:layout_below="@+id/cameraButton"
         android:layout_width="fill_parent"
         android:layout_height= "200dp"
         />
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_below="@+id/cameraButton"
+        android:id="@+id/targeturi"
+        android:layout_below ="@+id/cameraButton"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         />
@@ -54,8 +50,20 @@
         android:id="@+id/submitButton"
         android:layout_below="@+id/targetimage"
         android:layout_width="wrap_content"
+        android:clickable="false"
+        android:visibility="invisible"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerInParent="true"
         />
+
+    <Button
+        android:text="SHOW RECIPE"
+        android:id="@+id/nextButton"
+        android:layout_below="@+id/targetimage"
+        android:layout_width="wrap_content"
+        android:visibility="invisible"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/submitButton"
+        android:layout_centerInParent="true" />
 </RelativeLayout>

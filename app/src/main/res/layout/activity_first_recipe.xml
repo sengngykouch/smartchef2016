@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/plain"
+    tools:context="com.example.hoang.smartchef2016.RecipePage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dip"
+        android:fillViewport="true">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+        <ImageView
+            android:id="@+id/recipeImage"
+            android:layout_width="match_parent"
+            android:layout_height= "120dp"
+            android:background="@drawable/applepie" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height= "wrap_content"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:text="Salted chocolate délice with crème caramel and an 'apple' fritter"
+            android:textAlignment="center"
+            android:id= "@id/title"
+            android:layout_below = "@+id/recipeImage"/>
+
+        <TextView
+            android:id="@+id/filledInfo"
+            android:layout_width="match_parent"
+            android:layout_height= "wrap_content"
+            android:textColor="#ffffff"
+            android:text ="1
+To prepare the délices, line 6cm x 7cm individual ring moulds with greaseproof paper and preheat the oven to 160˚C/gas mark 3
+2
+Melt the chocolate and butter in a bain marie. Add the salt and stir. Once smooth, set the mixture aside to cool
+125g of dark chocolate
+30g of butter
+sea salt
+3
+Heat the chestnut purée and milk together in a small pan
+250g of chestnut purée, sweetened
+100ml of semi skimmed milk
+4
+Separate the eggs and beat the yolks with the sugar until pale and smooth
+3 free-range eggs, large
+75g of caster sugar
+5
+Stir the chestnut milk into the cooled chocolate mixture. Pour this into the egg yolks and sugar and combine to make a smooth batter
+6
+Whisk the egg whites until stiff peaks form, then fold into the batter mixture. Divide the batter into ring moulds
+7
+Place these on a baking tray and cook for approximately 15 minutes, or until the batter is mostly set but still slightly soft in the middle. Remove from the oven and allow time to cool
+8
+For the crème caramels, increase the oven temperature to 180ºC/gas mark 4. Heat together 100g of the sugar and water to make a caramel, then pour this into the base of 4 ramekin dishes
+100g of caster sugar
+125ml of water
+9
+Boil the milk with the vanilla pod and whisk together the eggs and remaining sugar
+500ml of milk
+1/2 vanilla pod
+4 free-range eggs
+50g of caster sugar
+10
+Pour the milk on to the egg mixture, whisking continuously, then pass through a sieve
+11
+Pour into the ramekins and cook in a bain marie in the oven for 30–40 minutes
+12
+To prepare the apple purée filling for the fritters, wash and chop the Granny Smith apples, removing the cores but leaving the skin on. Cook until soft with 1 tbsp of the sugar and the lemon juice
+2 Granny Smith apples
+1 tsp lemon juice
+1 tbsp of caster sugar
+13
+Mix together the flour with a pinch of salt. Warm the milk slightly, then add the yeast to the milk along with the remaining sugar and egg
+150g of strong white flour
+salt
+1 tsp milk
+5g of dried yeast
+1 free-range egg
+1 tbsp of caster sugar
+14
+Mix this into the flour with the butter and the seeds from the vanilla pod, then leave to chill for 2 hours
+80g of butter
+1/2 vanilla pod
+15
+Heat the deep-fat fryer or a pan of oil to 180˚C
+vegetable oil, for deep frying
+16
+Roll out the fritter dough to 2.5cm thick, cut into 2.5cm rounds and deep-fry for a couple of minutes until brown
+17
+Once soft, blitz the apple purée filling in a food processor and pass twice through a sieve, then spoon into a piping bag and refrigerate until cool
+18
+Once the mixture is cool and the fritters are cooked and warm to the touch, poke a small hole in the side of each fritter
+19
+Carefully pipe the apple purée into the fritters, reserving a small amount of the mixture. Roll the filled fritters in a little sugar - if they are still warm the sugar should stick
+caster sugar, to dust
+20
+For the celery infusion, chop and cook the celery in a little water until tender. Blitz in a food processor and pass through a sieve to form a purée
+1 celery stick
+75ml of water
+21
+To prepare the celery custard, separate the eggs and whisk the egg yolks until pale
+2 free-range eggs
+22
+Heat the milk and cream together in a pan, then pour slowly into the egg mixture while continuing to whisk
+125ml of milk
+100ml of whipping cream
+23
+Return to a clean pan and stir over a gentle heat until the mixture starts to thicken. Once a custard has formed, remove from the heat and add the celery purée, reserving a small amount for plating
+24
+Dust the chocolate délices with a small amount of icing sugar and cocoa powder, then place onto plates alongside the ramekins of crème caramel
+cocoa powder, for dusting
+icing sugar, for dusting
+25
+Use the reserved apple purée to secure the sugar-coated fritters to each plate, then spoon a small amount of celery infusion around. Serve immediately"
+            android:layout_below = "@+id/title"/>
+
+        <!-- everything you already have -->
+
+    </TableLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
+

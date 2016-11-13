@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/plain"
+    tools:context="com.example.hoang.smartchef2016.MainActivity">
+
+    <Button
+        android:text="Salted chocolate délice with crème caramel and an apple fritter \n 40 minutes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:id="@+id/firstRecipe"/>
+
+    <Button
+        android:text="McDonalds Apple Slices \n 10 minutes"
+        android:id="@+id/secondRecipe"
+        android:layout_below="@+id/firstRecipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        />
+
+    <Button
+    android:text="Apple IPhone \n 2 years"
+    android:id="@+id/thirdRecipe"
+    android:layout_below="@+id/secondRecipe"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerInParent="true"
+        />
+
+    <Button
+        android:text="Boozy Apple Granita \n 30 minutes"
+        android:id="@+id/fourthRecipe"
+        android:layout_below="@+id/thirdRecipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        />
+
+    <Button
+        android:text="Carmel Apples \n 25 minutes"
+        android:id="@+id/fifthRecipe"
+        android:layout_below="@+id/fourthRecipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        />
+
+
+</RelativeLayout>
+

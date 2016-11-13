@@ -45,8 +45,7 @@ public class MainActivity extends AppCompatActivity {
     private VisionServiceClient client;
     private Button submitButton;
     private Bitmap bitmap;
-    private TextView textView;
-
+    private Button recipe;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,7 +56,8 @@ public class MainActivity extends AppCompatActivity {
         targetImage = (ImageView) findViewById(R.id.targetimage);
         textTargetUri = (TextView) findViewById(R.id.targeturi);
         submitButton = (Button) findViewById(R.id.submitButton);
-        textView = (TextView) findViewById(R.id.textView);
+        recipe = (Button) findViewById(R.id.nextButton);
+        //textView = (TextView) findViewById(R.id.textView);
 
         uploadButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -65,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(Intent.ACTION_PICK,
                         android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
                 startActivityForResult(intent, 0);
+
             }
         });
 
@@ -75,6 +76,7 @@ public class MainActivity extends AppCompatActivity {
                 intent.putExtra(MediaStore.EXTRA_OUTPUT,
                         MediaStore.Images.Media.EXTERNAL_CONTENT_URI.getPath());
                 startActivityForResult(intent, 1);
+
             }
         });
 
@@ -85,8 +87,16 @@ public class MainActivity extends AppCompatActivity {
         submitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                doRecognizerAndAnalyze();
-                //VisionServiceClient VisionServiceClient = new VisionServiceClient("85b66286720840e28dc1cc4f26b717fe");
+                recipe.setVisibility(View.VISIBLE);
+                recipe.setClickable(true);
+            }
+        });
+
+        recipe.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, RecipePage.class);
+                startActivity(i);
             }
         });
     }
@@ -97,11 +107,15 @@ public class MainActivity extends AppCompatActivity {
 
         if (resultCode == RESULT_OK) {
             Uri targetUri = data.getData();
-            textTargetUri.setText(targetUri.toString());
+            //textTargetUri.setText(targetUri.toString());
 
             try {
                 bitmap = BitmapFactory.decodeStream(getContentResolver().openInputStream(targetUri));
                 targetImage.setImageBitmap(bitmap);
+                submitButton.setVisibility(View.VISIBLE);
+                submitButton.setClickable(true);
+                doRecognizerAndAnalyze();
+
             } catch (FileNotFoundException e) {
                 // TODO Auto-generated catch block
                 e.printStackTrace();
@@ -122,7 +136,7 @@ public class MainActivity extends AppCompatActivity {
 
     private String process() throws VisionServiceException, IOException, InterruptedException {
         Gson gson = new Gson();
-        String[] feature = {"Tags"};
+        String[] feature = {"Description"};
         String[] details = {};
 
         // Put the image into an input stream for detection.
@@ -133,10 +147,8 @@ public class MainActivity extends AppCompatActivity {
         AnalysisResult resultStream = this.client.analyzeImage(inputStream, feature, details);
 
         String result = gson.toJson(resultStream);
-        //Toast.makeText(this, "Testing charAnalysis ", Toast.LENGTH_LONG).show();
-        Log.d("Returning RESULTS are ", result);
-
-        //textView.setText(resultStream.tags.toString());
+        //if (resultStream.)
+        textTargetUri.setText(result);
         return result;
     }
 
@@ -172,33 +184,7 @@ public class MainActivity extends AppCompatActivity {
             } else {
                 Gson gson = new Gson();
                 AnalysisResult result = gson.fromJson(data, AnalysisResult.class);
-
-//                for (Category category: result.categories) {
-//                    if (category.name  == "tag") {
-//                        Log.d(result.tags.toString().split(",")[]);
-//                        StringBuilder resultBuild = new StringBuilder();
-//                        resultBuild.append(result.tags.toString());
-//                        for (int j = 0; j < resultBuild.length(); j++) {
-//                            if (resultBuild.charAt(j) == '{' ||
-//                                    resultBuild.charAt(j) == '}' ||
-//                                    resultBuild.charAt(j) == '"' ||
-//                                    resultBuild.charAt(j) == ',' ||
-//                                    resultBuild.charAt(j) == ':') {
-//                                resultBuild.deleteCharAt(j);
-//                                j--;
-//                            }
-//                        }
-//                        String finalResult = resultBuild.toString();
-//                    }
-                  //Log.d("Testing here ", "Category: " + category.name + ", score: " + category.score + "\n");
-                }
-                //Toast.makeText(MainActivity.this, result.tags.toString(), Toast.LENGTH_LONG).show();
-                //mEditText.setSelection(0);
-
-                //Log.d("Test results are", result.toString());
-
-                //Toast.makeText(MainActivity.this, result.tags.toString(), Toast.LENGTH_LONG).show();
-            //}
             }
+        }
     }
 }
