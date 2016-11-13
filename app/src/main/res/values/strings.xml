@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SmartChef2016</string>
+    <string name="subscription_key">"85b66286720840e28dc1cc4f26b717fe"</string>
 </resources>
